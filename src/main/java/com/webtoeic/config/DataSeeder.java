@@ -26,7 +26,7 @@ public class DataSeeder implements ApplicationListener<ContextRefreshedEvent> {
 			NguoiDung admin = new NguoiDung();
 			admin.setEmail("admin@gmail.com");
 			admin.setPassword(passwordEncoder.encode("123456"));
-			admin.setHoTen("Nguyễn Xuân Nam");
+			admin.setHoTen("Nguyễn Hữu A");
 			admin.setSoDienThoai("123456789");
 			admin.setVaiTro(VaiTro.ROLE_ADMIN);
 			userRepository.save(admin);
@@ -35,7 +35,7 @@ public class DataSeeder implements ApplicationListener<ContextRefreshedEvent> {
 		// Member account
 		if (userRepository.findByEmail("member@gmail.com") == null) {
 			NguoiDung member = new NguoiDung();
-			member.setHoTen("Đào Huy Chương");
+			member.setHoTen("Nguyễn Hữu B");
 			member.setSoDienThoai("123456789");
 			member.setEmail("member@gmail.com");
 			member.setPassword(passwordEncoder.encode("123456"));
