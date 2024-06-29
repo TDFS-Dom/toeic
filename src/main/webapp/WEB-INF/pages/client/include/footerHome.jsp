@@ -21,21 +21,10 @@
 <footer>
  <div class="container">
       <div class="row">
-      
-      
-        <div class="span6" align="center">Copyright &copy; SoICT-HUST 2018-2019 | All Rights Reserved<br>
-        <small>HA NOI UNIVERSITY OF SCIENCE AND TECHNOLOGY</small>
-        </div>
-      
-      
-        <div class="span6">
-            <div class="social pull-right">
-                <a href="#"><img src="${pageContext.request.contextPath}/resources/file/images/social/googleplus.png" alt=""></a>
-                <a href="#"><img src="${pageContext.request.contextPath}/resources/file/images/social/dribbble.png" alt=""></a>
-                <a href="#"><img src="${pageContext.request.contextPath}/resources/file/images/social/twitter.png" alt=""></a>
-                <a href="#"><img src="${pageContext.request.contextPath}/resources/file/images/social/dribbble.png" alt=""></a>
-                <a href="#"><img src="${pageContext.request.contextPath}/resources/file/images/social/rss.png" alt=""></a>
-            </div>
+
+
+        <div class="span6" align="center">Trường Đại Học Giao Thông Vận Tải<br>
+
         </div>
       </div>
     </div>
