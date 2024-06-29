@@ -154,44 +154,6 @@
 
 		</div>
 		<!-- /Carousel -->
-
-		<!-- Feature 
-  ==============================================-->
-
-
-		<div class="row feature-box">
-			<div class="span12 cnt-title">
-				<h1>Cung cấp các giao diện học và thi thân thiện.</h1>
-				<span>--- Học thử, Làm bài tập, Thi thử ---</span>
-			</div>
-
-			<div class="span4">
-				<img
-					src="${pageContext.request.contextPath}/resources/file/images/feature-vocabulary1.jpg">
-
-				<h2>Học từ vựng, ngữ pháp</h2>
-				<p>Các bài hướng dẫn đơn giản, dễ hiểu.</p>
-				<a href="#" id="modal1" class="openModalFunction">Chi tiết &rarr;</a>
-
-			</div>
-
-			<div class="span4">
-				<img
-					src="${pageContext.request.contextPath}/resources/file/images/feature-listenandread.jpg">
-				<h2>Bài tập phần nghe, đọc</h2>
-				<p>Sử dụng các dạng bài tập thường xuyên xuất hiện.</p>
-				<a  href="#" id="modal2" class="openModalFunction">Chi tiết &rarr;</a>
-			</div>
-
-			<div class="span4">
-				<img
-					src="${pageContext.request.contextPath}/resources/file/images/feature-lamdethithu.jpg"
-					height="170px" width="270px">
-				<h2>Đề thi thử</h2>
-				<p>Cập nhật, đổi mới liên tục, sát với đề thi thật nhất.</p>
-				<a href="#" class="doExam" id="doExam">Chi tiết &rarr;</a>
-			</div>
-		</div>
 	</div>
 
 
