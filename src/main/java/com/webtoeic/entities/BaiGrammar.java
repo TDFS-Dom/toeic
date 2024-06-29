@@ -11,20 +11,20 @@ import javax.persistence.Table;
 @Table(name = "bai_grammar")
 public class BaiGrammar {
 	@Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "baigrammarid", nullable = false)
 	private Integer baigrammarid;
-	
+
 	@Column(name = "tenbaigrammar")
 	private String tenbaigrammar;
-	
+
 	@Column(name = "anhbaigrammar")
 	private String anhbaigrammar;
-	
-	@Column(columnDefinition = "TEXT",name="content_HTML")
+
+	@Column(columnDefinition = "CLOB",name="content_HTML")
 	private String contentHTML;
-	
-	@Column(columnDefinition = "TEXT",name="content_MarkDown")
+
+	@Column(columnDefinition = "CLOB",name="content_MarkDown")
 	private String contentMarkDown;
 
 	public Integer getBaigrammarid() {
@@ -73,7 +73,7 @@ public class BaiGrammar {
 	}
 
 	public BaiGrammar(Integer baigrammarid, String tenbaigrammar, String anhbaigrammar, String contentHTML,
-			String contentMarkDown) {
+					  String contentMarkDown) {
 		super();
 		this.baigrammarid = baigrammarid;
 		this.tenbaigrammar = tenbaigrammar;
@@ -84,6 +84,6 @@ public class BaiGrammar {
 
 
 	
-	
+
 
 }

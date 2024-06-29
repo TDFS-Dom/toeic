@@ -19,11 +19,11 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 public class NoiDungBaiTapTuVung {
 	
 	@Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "noidungbaituvungid", nullable = false)
 	private Integer noidungbaitaptuvungid;
-	
-	@Column(name = "number")
+
+	@Column(name = "`number`")
 	private Integer number;
 	
 	@Column(name = "content")

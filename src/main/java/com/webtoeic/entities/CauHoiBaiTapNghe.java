@@ -29,7 +29,7 @@ public class CauHoiBaiTapNghe {
 	@JsonIgnore
 	private byte[] photoData;
 
-	@Column(columnDefinition ="TEXT")
+	@Column(columnDefinition ="CLOB")
 	private String script;
 
 	private String dapAn_1;
@@ -38,7 +38,7 @@ public class CauHoiBaiTapNghe {
 	private String dapAn_4;
 	private String dapAnDung;
 
-	@Column(columnDefinition = "TEXT")
+	@Column(columnDefinition = "CLOB")
 	private String giaiThich;
 
 	@ManyToOne

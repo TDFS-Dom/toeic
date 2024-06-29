@@ -26,57 +26,57 @@ public class CauHoiBaiThiThu {
 		this.dapAnUser = dapAnUser;
 	}
 
-	
-	
+
+
 	@Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "cauhoibaithithuid", nullable = false)
 	private Integer cauhoibaithithuid;
-	
-	@Column(name = "number")
+
+	@Column(name = "`number`")
 	private Integer number;
-	
+
 	@Column(name = "image")
 	private String image;
-	
+
 	@Column(name = "audiomp3")
 	private String audiomp3;
-	
-	@Column(columnDefinition = "TEXT")
+
+	@Column(columnDefinition = "CLOB")
 	private String paragraph;
-	
+
 	@Column(name = "question")
 	private String question;
-	
+
 	@Column(name = "option1")
 	private String option1;
-	
+
 	@Column(name = "option2")
 	private String option2;
-	
+
 	@Column(name = "option3")
 	private String option3;
-	
+
 	@Column(name = "option4")
 	private String option4;
-	
+
 	@Column(name = "correctanswer")
 	private String correctanswer;
-	
+
 	@ManyToOne
 	@JoinColumn(name="baithithuid",nullable= false)
 	@OnDelete(action = OnDeleteAction.CASCADE)
 	@JsonIgnore
 	private BaiThiThu baithithu;
-	
-	
+
+
 	public CauHoiBaiThiThu() {
-		
+
 	}
 
 	public CauHoiBaiThiThu(Integer cauhoibaithithuid, Integer number, String image, String audiomp3, String paragraph,
-			String question, String option1, String option2, String option3, String option4, String correctanswer,
-			BaiThiThu baithithu) {
+						   String question, String option1, String option2, String option3, String option4, String correctanswer,
+						   BaiThiThu baithithu) {
 		super();
 		this.cauhoibaithithuid = cauhoibaithithuid;
 		this.number = number;
@@ -187,7 +187,7 @@ public class CauHoiBaiThiThu {
 	public void setBaithithu(BaiThiThu baithithu) {
 		this.baithithu = baithithu;
 	}
-	
-	
+
+
 
 }

@@ -41,8 +41,8 @@ public class BaiTapNghe {
 	@JsonIgnore
 	@Transient
 	private MultipartFile fileExcelCauHoi;
-	
-	@Column(columnDefinition = "TEXT")
+
+	@Column(columnDefinition = "CLOB")
 	private String script; // chi tiết bài nghe
 
 	@OneToMany(mappedBy = "baiTapNghe", cascade = CascadeType.ALL)

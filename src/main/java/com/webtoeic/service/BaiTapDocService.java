@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import javax.jdo.annotations.Transactional;
 import javax.servlet.http.HttpServletRequest;
+import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -34,7 +34,7 @@ public class BaiTapDocService {
 	
 	public Page<BaiTapDoc> findAllListBaiTapDocByPartAndDoKho(int page, int size, int part, int doKho) {
 		return baiTapDocRepo.findByPartAndDoKho(part, doKho, PageRequest.of(page-1, size));
-	};
+	}
 	
 	public Page<BaiTapDoc> findAllListBaiTapDocByPartAndDoKhoAdmin(int page, int size, String part, String doKho) {
 		BooleanBuilder builder = new BooleanBuilder();

@@ -17,7 +17,7 @@ public class CauHoiBaiTapDoc {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
 	private String soThuTu;
-	@Column(columnDefinition = "TEXT")
+	@Column(columnDefinition = "CLOB")
 	private String cauHoi;
 
 
@@ -27,10 +27,10 @@ public class CauHoiBaiTapDoc {
 	private String dapAn_4;
 	private String dapAnDung;
 	private String giaiThich;
-	
-	@Column(columnDefinition = "TEXT")
+
+	@Column(columnDefinition = "CLOB")
 	private String paragraph;
-	
+
 
 	@ManyToOne
 	@JoinColumn(name = "baiTapDocId")
@@ -59,7 +59,7 @@ public class CauHoiBaiTapDoc {
 	public void setCauHoi(String cauHoi) {
 		this.cauHoi = cauHoi;
 	}
-	
+
 	public String getParagraph() {
 		return paragraph;
 	}
@@ -130,6 +130,6 @@ public class CauHoiBaiTapDoc {
 				+ ", dapAn_3=" + dapAn_3 + ", dapAn_4=" + dapAn_4 + ", dapAnDung=" + dapAnDung + ", giaiThich="
 				+ giaiThich + "]";
 	}
-	
-	
+
+
 }

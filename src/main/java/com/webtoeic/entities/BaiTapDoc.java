@@ -23,20 +23,20 @@ public class BaiTapDoc {
 	private long id;
 	private String tenBaiDoc;
 	private int doKho;
-	
+
 	@Transient
 	@JsonIgnore
 	private MultipartFile photoBaiDoc;
-	
+
 	private int part;
-	
+
 	@JsonIgnore
 	@Transient
 	private MultipartFile fileExcelCauHoi;
-	
-	@Column(columnDefinition = "TEXT")
+
+	@Column(columnDefinition = "CLOB")
 	private String script;
-	
+
 	@OneToMany(mappedBy = "baiTapDoc", cascade = CascadeType.ALL)
 	@JsonBackReference
 	List<CauHoiBaiTapDoc> listCauHoiBaiTapDoc;
@@ -73,7 +73,7 @@ public class BaiTapDoc {
 	public void setPart(int part) {
 		this.part = part;
 	}
-	
+
 
 	public MultipartFile getPhotoBaiDoc() {
 		return photoBaiDoc;
@@ -113,6 +113,6 @@ public class BaiTapDoc {
 	}
 
 
-	
+
 
 }
