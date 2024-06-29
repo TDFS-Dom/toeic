@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
-<div class="col-md-9 animated bounce">
+<div class="col-md-9 ">
 	<h3 class="page-header">Danh sách công việc</h3>
 	<c:if test = "${listCongViec.soDonHangMoi > 0}">
          <p>Bạn có: <a href='<c:url value="/admin/don-hang" />'> ${listCongViec.soDonHangMoi} đơn hàng mới</a><p>

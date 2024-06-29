@@ -192,34 +192,6 @@
 				<a href="#" class="doExam" id="doExam">Chi tiết &rarr;</a>
 			</div>
 		</div>
-
-
-		<!-- /.Feature -->
-
-		<div class="hr-divider"></div>
-
-		<!-- Row View -->
-
-
-		<div class="row">
-			<div class="span8">
-				<img
-					src="${pageContext.request.contextPath}/resources/file/images/background3.png">
-			</div>
-
-			<div class="span4">
-				<!--   <img class="hidden-phone" src="Template/Frontend/img/icon4.png" alt="img not found"> -->
-				<h1 align="center">Tin cậy - uy tín</h1>
-				<p align="justify">Mỗi năm, có hàng nghìn lượt học viên đã tham
-					dự các khóa học tiếng Anh tại CFL và đạt kết quả như ý muốn. Chúng
-					tôi tự hào là một trong những trung tâm ngoại ngữ được yêu thích,
-					là địa chỉ tin cậy của các bạn SV Bách Khoa, Kinh tế, Xây dựng,
-					Ngân hàng... và nhiều người đi làm trên địa bàn Hà Nội.</p>
-
-			</div>
-		</div>
-
-
 	</div>
 
 

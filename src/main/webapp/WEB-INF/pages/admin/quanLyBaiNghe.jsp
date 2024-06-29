@@ -21,7 +21,7 @@
 	<jsp:include page="template/header.jsp"></jsp:include>
 	<jsp:include page="template/sidebar.jsp"></jsp:include>
 
-	<div class="col-md-9 animated bounce">
+	<div class="col-md-9 ">
       <h3 class="page-header">Quản lý Bài Nghe</h3>
 
       <button class="btn btn-success btnThemBaiNghe">Thêm mới bài nghe</button>

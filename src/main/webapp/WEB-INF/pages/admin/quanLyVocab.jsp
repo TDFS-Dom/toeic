@@ -48,7 +48,7 @@ function showMyImage(fileInput) {
 	<jsp:include page="template/sidebar.jsp"></jsp:include>	
 	
 
-	<div class="col-md-9 animated bounce">
+	<div class="col-md-9 ">
       <h3 class="page-header">Quản lý Bài hướng dẫn học từ vựng</h3>
       <button class="btn btn-success btnAddVocab" data-toggle="modal" data-target="#vocabModal">Thêm mới</button>
 	      	<h4 style="color: red" id="info-success"></h4>
