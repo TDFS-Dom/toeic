@@ -1,16 +1,6 @@
 version: '3'
 
 services:
-#  postgres-compose:
-#    image: postgres
-#    environment:
-#      POSTGRES_USERNAME: "postgres"
-#      POSTGRES_PASSWORD: "postgres"
-#    ports:
-#      - "15432:5432"
-#    volumes:
-#      - ${HOME}/Documentos/Docker/servlet-example/PostgreSQL/servlet-example:/var/lib/postgresql/data
-#      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
   # MySQL
   db:
     container_name: mysql8
@@ -26,7 +16,7 @@ services:
       - './docker/db/data:/var/lib/mysql'
       - './docker/db/my.cnf:/etc/mysql/conf.d/my.cnf'
       - './docker/db/sql:/docker-entrypoint-initdb.d'
-        
+
   toeic-app:
     build:
       context: .
