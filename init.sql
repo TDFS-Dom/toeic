@@ -369,7 +369,7 @@ CREATE TABLE `nguoi_dung` (
 
 LOCK TABLES `nguoi_dung` WRITE;
 /*!40000 ALTER TABLE `nguoi_dung` DISABLE KEYS */;
-INSERT INTO `nguoi_dung` VALUES (1,NULL,'admin@gmail.com','Nguyễn Xuân Nam','$2a$10$Wm/.xaMmNZgAwA0ys5K.K.1xLzVmoX68nyqrFPqEARdrSow8aeVAy','123456789',2),(2,NULL,'member@gmail.com','Đào Huy Chương','$2a$10$g3O3lxP.ij2kjP3nsjpuiuDgD00Y/IfgphQJI920zu/6VikIWgTae','123456789',1);
+INSERT INTO `nguoi_dung` VALUES (1,NULL,'admin@gmail.com','Nguyễn Hữu A','$2a$10$Wm/.xaMmNZgAwA0ys5K.K.1xLzVmoX68nyqrFPqEARdrSow8aeVAy','123456789',2),(2,NULL,'member@gmail.com','Nguyễn Hữu B','$2a$10$g3O3lxP.ij2kjP3nsjpuiuDgD00Y/IfgphQJI920zu/6VikIWgTae','123456789',1);
 /*!40000 ALTER TABLE `nguoi_dung` ENABLE KEYS */;
 UNLOCK TABLES;
 
